@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+
+body {
+    background-color: #050517; /* Céu noturno escuro */
+    color: #f1f2f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #111424;
+    padding: 40px;
+    border-radius: 8px;
+    border: 2px solid #ffd700;
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffd700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+p { margin-bottom: 20px; color: #a4b0be; }
+
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: #2f3542;
+    border: 1px solid #ffd700;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(45deg, #ffd700, #ffaa00);
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+#resultado {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.escondido { display: none; }
+
+.cavaleiro-nome {
+    font-size: 24px;
+    color: #ffd700;
+    margin: 10px 0;
+}
+
+.cavaleiro-poder { font-style: italic; color: #ff6b81; }
