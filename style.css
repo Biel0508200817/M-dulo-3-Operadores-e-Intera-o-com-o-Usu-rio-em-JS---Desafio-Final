@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #050517; /* Céu noturno escuro */
-    color: #f1f2f6;
+    background-color: #48bbf1 ; /* Céu noturno escuro */
+    color: #feea07;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
@@ -14,39 +14,39 @@ body {
 }
 
 .container {
-    background: #111424;
+    background: #f4ad22;
     padding: 40px;
     border-radius: 8px;
-    border: 2px solid #ffd700;
-    box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
+    border: 2px solid #f9feff;
+    box-shadow: 0 0 30px #2a1f1c;
     max-width: 500px;
     text-align: center;
 }
 
 h1 {
-    color: #ffd700;
+    color: #e75f49;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
 
-p { margin-bottom: 20px; color: #a4b0be; }
+p { margin-bottom: 20px; color: #fde0ca; }
 
 input[type="date"] {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    background: #2f3542;
-    border: 1px solid #ffd700;
-    color: white;
+    background: #48bbf1 ;
+    border: 1px solid #feea07;
+    color: #f4ad22;
     font-size: 16px;
     border-radius: 4px;
     outline: none;
 }
 
 button {
-    background: linear-gradient(45deg, #ffd700, #ffaa00);
-    color: #000;
+    background: linear-gradient(45deg, #f9feff, #2a1f1c);
+    color: #e75f49;
     border: none;
     padding: 15px 30px;
     font-size: 16px;
@@ -60,24 +60,24 @@ button {
 
 button:hover {
     transform: scale(1.02);
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 15px #fde0ca;
 }
 
 #resultado {
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 215, 0, 0.3);
+    border-top: 1px solid #48bbf1 ;
 }
 
 .escondido { display: none; }
 
 .cavaleiro-nome {
     font-size: 24px;
-    color: #ffd700;
+    color: #feea07;
     margin: 10px 0;
 }
 
-.cavaleiro-poder { font-style: italic; color: #ff6b81; }
+.cavaleiro-poder { font-style: italic; color: #e75f49; }
 
 /* Adicione no final do seu style.css atual */
 
@@ -86,8 +86,8 @@ button:hover {
     height: 200px;
     object-fit: cover;
     border-radius: 50%; /* Deixa a imagem redonda */
-    border: 3px solid #ffd700;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    border: 3px solid #f9feff;
+    box-shadow: 0 0 20px #2a1f1c;
     margin: 15px 0;
     animation: brilhoCosmo 2s infinite alternate;
 }
@@ -95,13 +95,13 @@ button:hover {
 .cavaleiro-descricao {
     font-size: 15px;
     line-height: 1.5;
-    color: #ced6e0;
+    color: #e75f49;
     margin-bottom: 15px;
     padding: 0 10px;
 }
 
 /* Animação extra para o cosmo brilhar na imagem */
 @keyframes brilhoCosmo {
-    from { box-shadow: 0 0 10px rgba(255, 215, 0, 0.3); }
-    to { box-shadow: 0 0 25px rgba(255, 215, 0, 0.8); }
+    from { box-shadow: 0 0 10px #fde0ca; }
+    to { box-shadow: 0 0 25px #48bbf1 ; }
 }
