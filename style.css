@@ -78,3 +78,30 @@ button:hover {
 }
 
 .cavaleiro-poder { font-style: italic; color: #ff6b81; }
+
+/* Adicione no final do seu style.css atual */
+
+.cavaleiro-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    border: 3px solid #ffd700;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    margin: 15px 0;
+    animation: brilhoCosmo 2s infinite alternate;
+}
+
+.cavaleiro-descricao {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ced6e0;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+/* Animação extra para o cosmo brilhar na imagem */
+@keyframes brilhoCosmo {
+    from { box-shadow: 0 0 10px rgba(255, 215, 0, 0.3); }
+    to { box-shadow: 0 0 25px rgba(255, 215, 0, 0.8); }
+}
